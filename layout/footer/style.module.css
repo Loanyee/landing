@@ -18,6 +18,6 @@
 
 .footer ul li img,
 .footer ul li svg {
-  max-width: 100%;
+  /* max-width: 100%; */
   display: inline;
 }

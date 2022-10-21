@@ -18,31 +18,31 @@ const Footer = () => {
           On the shoulders of giants
         </h3>
         <div className="px-0 md:px-10 mt-16">
-          <ul className="flex gap-5 md:gap-10 md:flex-nowrap	 flex-wrap justify-center items-center">
-            <li className="basis-full sm:basis-5/12	 md:basis-1/3 flex justify-center sm:block">
+          <ul className="flex gap-5 md:gap-10 flex-wrap lg:flex-nowrap  justify-center items-center">
+            <li className="basis-full md:basis-5/12	  flex justify-center ">
               <Ploygon />
             </li>
-            <li className="basis-full sm:basis-5/12		md:basis-1/3 flex justify-center sm:block">
+            <li className="basis-full md:basis-5/12	flex justify-center ">
               <Optimism />
             </li>
-            <li className="basis-full sm:basis-5/12	md:basis-1/3 flex justify-center sm:block">
+            <li className="basis-full md:basis-5/12	 flex justify-center">
               <SuperFluid />
             </li>
-            <li className="basis-full sm:basis-5/12	md:basis-1/3 flex justify-center sm:block">
+            <li className="basis-full md:basis-5/12	 flex justify-center">
               <Tabledland />
             </li>
           </ul>
-          <ul className="mt-12 md:px-16 justify-center items-center flex gap-5 md:gap-10 md:flex-nowrap	 flex-wrap  ">
-            <li className="basis-full sm:basis-5/12	 md:basis-1/3 flex justify-center sm:block">
-              <Image src={Graph} />
+          <ul className="mt-12 md:px-16 justify-center items-center flex gap-5 md:gap-10  	 flex-wrap  lg:flex-nowrap ">
+            <li className="basis-full md:basis-5/12	 flex justify-center">
+              <Image src={Graph} alt="Not found" />
             </li>
-            <li className="basis-full sm:basis-5/12	 md:basis-1/3 flex justify-center sm:block">
+            <li className="basis-full md:basis-5/12	  flex justify-center">
               <ENS />
             </li>
-            <li className="basis-full sm:basis-5/12	 md:basis-1/3 flex justify-center sm:block">
-              <Image src={IPFS} />
+            <li className="basis-full md:basis-5/12	  flex justify-center">
+              <Image src={IPFS} alt="Not found" />
             </li>
-            <li className="basis-full sm:basis-5/12	 md:basis-1/3 flex justify-center sm:block">
+            <li className="basis-full md:basis-5/12	  flex justify-center">
               <PUSH />
             </li>
           </ul>

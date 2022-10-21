@@ -11,32 +11,36 @@ const Hero = () => {
   return (
     <section className=" mx-auto pt-16 pb-24">
       <div className="container mx-auto">
-        <div className="flex items-center">
-          <h1
-            className="text-white xl:text-8xl lg:text-6xl text-4xl	inline"
-            style={{ marginRight: "30px" }}
-          >
-            Uncollateralized lending
-          </h1>
-          <div className=" hidden md:inline">
-            <Logo />
-          </div>
-        </div>
+        <div className="hero-content">
+          <div>
+            <div className="flex items-center">
+              <h1
+                className="text-white xl:text-8xl lg:text-6xl text-4xl	inline"
+                style={{ marginRight: "30px" }}
+              >
+                Uncollateralized lending
+              </h1>
+              <div className="mt-7 hidden md:inline">
+                <Logo />
+              </div>
+            </div>
 
-        <h1 className="text-white xl:text-8xl lg:text-6xl  text-4xl ">
-          against your <span className="emp-text">on-chain salary</span>
-        </h1>
-        <ul className="list-none my-10">
-          <li className="text-white text-xl flex items-center mb-5">
-            <Arrow />
-            <span className="inline-block ml-5">Lend up to 30% APY</span>
-          </li>
-          <li className="text-white text-xl flex items-center mb-5">
-            <Arrow />
-            <span className="inline-block ml-5">Borrow from 10% APR</span>
-          </li>
-        </ul>
-        <Button title="Launch app" />
+            <h1 className="text-white xl:text-8xl lg:text-6xl  text-4xl ">
+              against your <span className="emp-text">on-chain salary</span>
+            </h1>
+          </div>
+          <ul className="list-none my-10">
+            <li className="text-white text-xl flex items-center mb-5">
+              <Arrow />
+              <span className="inline-block ml-5">Lend up to 30% APY</span>
+            </li>
+            <li className="text-white text-xl flex items-center mb-5">
+              <Arrow />
+              <span className="inline-block ml-5">Borrow from 10% APR</span>
+            </li>
+          </ul>
+          <Button title="Launch app" />
+        </div>
       </div>
       <div className="curv-bg-wrapper">
         <div className="pt-28 pb-16 md:pb-28 relative z-10">

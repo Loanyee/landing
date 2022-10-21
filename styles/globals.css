@@ -9,6 +9,10 @@
   margin-right: auto;
   margin-left: auto;
 }
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
 /* HOME PAGE GLOBAL STYLES  */
 
@@ -91,13 +95,12 @@
   right: 0px;
   bottom: 30px;
 }
+.hero-content {
+  padding-left: 100px;
+}
 
 /* MEDIA QUERY  */
 @media screen and (max-width: 768px) {
-  .container {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
   .curv-bg-wrapper-white {
     height: 544px;
     min-height: 600px;
@@ -109,6 +112,9 @@
     height: 900px;
     top: -150px;
     left: 5px;
+  }
+  .hero-content {
+    padding-left: 0px;
   }
 }
 

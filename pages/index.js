@@ -6,7 +6,7 @@ import Explore from "views/home/explore";
 import Footer from "layout/footer";
 export default function Home() {
   return (
-    <div>
+    <div className="overflow-x-hidden	">
       <section className={style.hero_section_wrapper}>
         <Header />
         <Hero />
