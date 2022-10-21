@@ -1,0 +1,23 @@
+.footer {
+  background: #030c24;
+  min-height: 446px;
+  position: relative;
+}
+.footer::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  background: url("../../assets/footer-light.png");
+  background-size: cover;
+}
+
+.footer ul li img,
+.footer ul li svg {
+  max-width: 100%;
+  display: inline;
+}

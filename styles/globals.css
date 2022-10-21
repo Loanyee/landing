@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-fluid {
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* HOME PAGE GLOBAL STYLES  */
+
+.emp-text {
+  background: linear-gradient(
+    92.25deg,
+    #a95aff 3.43%,
+    #ff95bb 61.16%,
+    #ffe0eb 103.29%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.curv-bg-wrapper {
+  position: relative;
+}
+.curv-bg-wrapper::before {
+  content: "";
+  position: absolute;
+  top: -260px;
+  height: 490px;
+  width: 100%;
+  background: url("../assets/mid.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+}
+.curv-bg-wrapper .curv-bg {
+  height: 490.51px;
+}
+.curv-bg-wrapper-white {
+  position: relative;
+  min-height: 730px;
+}
+.curv-bg-wrapper-white::before {
+  content: "";
+  position: absolute;
+  top: -210px;
+  height: 930px;
+  width: 100%;
+  background: url("../assets/curv-bg-white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+}
+.curv-bg-wrapper-white::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 480px;
+  background: #fff;
+}
+.line {
+  width: 100%;
+  height: 3px;
+  background-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1)
+  );
+}
+.card-wrapper {
+  position: relative;
+  min-height: 500px;
+}
+
+.card-wrapper .card-img-left {
+  bottom: 0px;
+  left: 0px;
+}
+.card-wrapper .card-img-left svg,
+.card-wrapper .card-img-right svg {
+  width: 100%;
+}
+.card-wrapper .card-img-right {
+  right: 0px;
+  bottom: 30px;
+}
+
+/* MEDIA QUERY  */
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .curv-bg-wrapper-white {
+    height: 544px;
+    min-height: 600px;
+  }
+  .curv-bg-wrapper-white::after {
+    display: none;
+  }
+  .curv-bg-wrapper-white::before {
+    height: 900px;
+    top: -150px;
+    left: 5px;
+  }
+}
+
+@media screen and (max-width: 976px) {
+  .curv-bg-wrapper::before {
+    top: -160px;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .card-wrapper .card-img-left svg,
+  .card-wrapper .card-img-right svg {
+    transform: scale(0.8);
+  }
+  .card-wrapper .card-img-left {
+    bottom: -44px;
+    left: -40px;
+  }
+  .card-wrapper .card-img-right {
+    right: -40px;
+    bottom: 0px;
+  }
+}
