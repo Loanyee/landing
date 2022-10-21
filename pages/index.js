@@ -1,7 +1,7 @@
-import Header from "../layout/header";
+import Header from "layout/header";
 import style from "../styles/Home.module.css";
-import Hero from "../views/home/hero";
-import Benefits from "../views/home/benefits";
+import Hero from "views/home/hero";
+import Benefits from "views/home/benefits";
 import Explore from "views/home/explore";
 import Footer from "layout/footer";
 export default function Home() {
