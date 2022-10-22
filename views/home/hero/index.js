@@ -6,17 +6,13 @@ import Circel from "../../../assets/circel-line.svg";
 import Dollar from "../../../assets/dollar.svg";
 import Line from "../../../assets/line.svg";
 import Button from "../../../components/button";
-
-const openInNewTab = url => {
-  window.open(url, '_blank', 'noopener,noreferrer');
-};
-
+import { openInNewTab } from "utils/openNewTab";
 
 const Hero = () => {
   return (
     <section className=" mx-auto pt-16 pb-24">
       <div className="container mx-auto">
-        <div className="hero-content">
+        <div className=" relative z-50 hero-content">
           <div>
             <div className="flex items-center">
               <h1
@@ -44,7 +40,10 @@ const Hero = () => {
               <span className="inline-block ml-5">Borrow from 10% APR</span>
             </li>
           </ul>
-          <Button title="Launch app" onClick={() => openInNewTab("https://app.loanyee.xyz")} />
+          <Button
+            title="Launch app"
+            onClick={() => openInNewTab("https://app.loanyee.xyz")}
+          />
         </div>
       </div>
       <div className="curv-bg-wrapper">

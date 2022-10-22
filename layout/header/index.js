@@ -1,11 +1,7 @@
 import React from "react";
 import Logo from "assets/logo.svg";
 import Button from "components/button";
-
-const openInNewTab = url => {
-  window.open(url, '_blank', 'noopener,noreferrer');
-};
-
+import { openInNewTab } from "utils/openNewTab";
 
 const Header = () => {
   return (
@@ -14,7 +10,10 @@ const Header = () => {
         <Logo />
       </div>
       <div>
-        <Button title="Launch app" onClick={() => openInNewTab("https://app.loanyee.xyz")} />
+        <Button
+          title="Launch app"
+          onClick={() => openInNewTab("https://app.loanyee.xyz")}
+        />
       </div>
     </header>
   );
