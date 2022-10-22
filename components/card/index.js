@@ -1,6 +1,6 @@
 import React from "react";
 import Borrower from "../../assets/borrower.svg";
-import Lenders from "../../assets/Lenders.svg";
+import Lenders from "../../assets/lenders.svg";
 const Card = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-20 mt-20">

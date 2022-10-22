@@ -7,6 +7,11 @@ import Dollar from "../../../assets/dollar.svg";
 import Line from "../../../assets/line.svg";
 import Button from "../../../components/button";
 
+const openInNewTab = url => {
+  window.open(url, '_blank', 'noopener,noreferrer');
+};
+
+
 const Hero = () => {
   return (
     <section className=" mx-auto pt-16 pb-24">
@@ -39,7 +44,7 @@ const Hero = () => {
               <span className="inline-block ml-5">Borrow from 10% APR</span>
             </li>
           </ul>
-          <Button title="Launch app" />
+          <Button title="Launch app" onClick={() => openInNewTab("https://app.loanyee.xyz")} />
         </div>
       </div>
       <div className="curv-bg-wrapper">
