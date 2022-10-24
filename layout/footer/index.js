@@ -12,7 +12,7 @@ import PUSH from "assets/footer-icon/push.svg";
 
 const Footer = () => {
   return (
-    <footer className={`${style.footer} py-20 relative z-20 `}>
+    <footer className={`${style.footer} py-20 relative z-20 pl-0  md:pl-24 `}>
       <div className="container mx-auto">
         <h3 className="text-center emp-text uppercase text-3xl font-bold">
           On the shoulders of giants

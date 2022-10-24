@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <section className=" mx-auto pt-16 pb-24">
       <div className="container mx-auto">
-        <div className=" relative z-50 hero-content">
+        <div className=" relative z-50 pl-0  md:pl-24	">
           <div>
             <div className="flex items-center">
               <h1
@@ -21,7 +21,7 @@ const Hero = () => {
               >
                 Uncollateralized lending
               </h1>
-              <div className="mt-7 hidden md:inline">
+              <div className="mt-7 hidden md:inline brand-logo ">
                 <Logo />
               </div>
             </div>
@@ -51,14 +51,17 @@ const Hero = () => {
           <h1 className="text-white text-center text-5xl md:text-7xl mb-4 font-normal md:font-medium">
             How it Works
           </h1>
-          <p className="text-center text-base text-gray-400 font-normal	">
+          <p
+            className="text-center text-base text-gray-400 font-normal	mx-auto"
+            style={{ maxWidth: "600px" }}
+          >
             We enable the uncollateralized loan by splitting the salary
-            streaming on <br />
-            Superfluid from the employer to the borrower and lender.
+            streaming on Superfluid from the employer to the borrower and
+            lender.
           </p>
         </div>
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-20  lg:gap-52">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-20  lg:gap-52 pl-0  md:pl-24">
             <div>
               <Circel />
               <p className="text-base text-gray-300 font-normal mt-8">
