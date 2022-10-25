@@ -3,6 +3,16 @@
   min-height: 446px;
   position: relative;
 }
+.footer_list {
+  flex-wrap: wrap;
+}
+.footer_list li {
+  flex-basis: 45%;
+}
+.footer_list li svg {
+  width: 100%;
+  overflow: visible;
+}
 .footer::before {
   content: "";
   position: absolute;
@@ -14,6 +24,7 @@
   height: 500px;
   background: url("../../assets/footer-light.png");
   background-size: cover;
+  z-index: -1;
 }
 
 .footer ul li img,

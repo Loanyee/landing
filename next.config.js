@@ -2,7 +2,6 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-<<<<<<< HEAD
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
@@ -14,9 +13,3 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
-=======
-}
-
-module.exports = nextConfig
-  
->>>>>>> main-temp
