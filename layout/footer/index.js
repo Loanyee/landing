@@ -12,40 +12,42 @@ import PUSH from "assets/footer-icon/push.svg";
 
 const Footer = () => {
   return (
-    <footer className={`${style.footer} py-20 relative z-20 pl-0  md:pl-24 `}>
+    <footer className={`${style.footer} py-20 relative z-20 pl-0  `}>
       <div className="container mx-auto">
-        <h3 className="text-center emp-text uppercase text-3xl font-bold">
-          On the shoulders of giants
-        </h3>
-        <div className="px-0 md:px-10 mt-16">
-          <ul className="flex gap-5 md:gap-10 flex-wrap lg:flex-nowrap  justify-center items-center">
-            <li className="basis-full md:basis-5/12	  flex justify-center ">
-              <Ploygon />
-            </li>
-            <li className="basis-full md:basis-5/12	flex justify-center ">
-              <Optimism />
-            </li>
-            <li className="basis-full md:basis-5/12	 flex justify-center">
-              <SuperFluid />
-            </li>
-            <li className="basis-full md:basis-5/12	 flex justify-center">
-              <Tabledland />
-            </li>
-          </ul>
-          <ul className="mt-12 md:px-16 justify-center items-center flex gap-5 md:gap-10  	 flex-wrap  lg:flex-nowrap ">
-            <li className="basis-full md:basis-5/12	 flex justify-center">
-              <Image src={Graph} alt="Not found" />
-            </li>
-            <li className="basis-full md:basis-5/12	  flex justify-center">
-              <ENS />
-            </li>
-            <li className="basis-full md:basis-5/12	  flex justify-center">
-              <Image src={IPFS} alt="Not found" />
-            </li>
-            <li className="basis-full md:basis-5/12	  flex justify-center">
-              <PUSH />
-            </li>
-          </ul>
+        <div className="mx-auto" style={{ maxWidth: "960px" }}>
+          <h3 className="text-center emp-text uppercase text-3xl font-bold">
+            On the shoulders of giants
+          </h3>
+          <div className="px-0 md:pr-5 mt-16">
+            <ul className="flex gap-5 md:gap-10 flex-wrap lg:flex-nowrap  justify-center items-center">
+              <li className="basis-full md:basis-5/12	  flex justify-center ">
+                <Ploygon />
+              </li>
+              <li className="basis-full md:basis-5/12	flex justify-center ">
+                <Optimism />
+              </li>
+              <li className="basis-full md:basis-5/12	 flex justify-center">
+                <SuperFluid />
+              </li>
+              <li className="basis-full md:basis-5/12	 flex justify-center">
+                <Tabledland />
+              </li>
+            </ul>
+            <ul className="mt-12 md:px-16 justify-center items-center flex gap-5 md:gap-10  	 flex-wrap  lg:flex-nowrap ">
+              <li className="basis-full md:basis-5/12	 flex justify-center">
+                <Image src={Graph} alt="Not found" />
+              </li>
+              <li className="basis-full md:basis-5/12	  flex justify-center">
+                <ENS />
+              </li>
+              <li className="basis-full md:basis-5/12	  flex justify-center">
+                <Image src={IPFS} alt="Not found" />
+              </li>
+              <li className="basis-full md:basis-5/12	  flex justify-center">
+                <PUSH />
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>
