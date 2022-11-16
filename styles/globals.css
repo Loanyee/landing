@@ -140,7 +140,6 @@
 }
 @media screen and (max-width: 1440px) {
   .brand-logo {
-    margin-top: 10px;
   }
   .brand-logo svg {
     height: 55px;
@@ -148,7 +147,6 @@
 }
 @media screen and (max-width: 975px) {
   .brand-logo {
-    margin-top: 10px;
   }
   .brand-logo svg {
     height: 35px;
