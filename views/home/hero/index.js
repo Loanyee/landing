@@ -15,25 +15,23 @@ const Hero = () => {
         <div className=" relative z-50 pl-0  md:pl-24	">
           <div>
             <div className="flex items-center">
-              <h1
-                className="text-white xl:text-8xl lg:text-6xl text-4xl	inline"
-                style={{ marginRight: "30px" }}
-              >
-                Uncollateralized lending
+              <h1 className="text-white xl:text-7xl lg:text-5xl text-3xl  mr-0 md:mr-6	inline font-normal md:font-medium">
+                Lending protocol against
               </h1>
-              <div className="mt-7 hidden md:inline brand-logo ">
+              <div className=" hidden md:inline brand-logo ">
                 <Logo />
               </div>
             </div>
 
-            <h1 className="text-white xl:text-8xl lg:text-6xl  text-4xl ">
-              against your <span className="emp-text">on-chain salary</span>
+            <h1 className="text-white xl:text-7xl lg:text-5xl  text-3xl  font-normal md:font-medium">
+              your salary stream with
+              <span className="emp-text"> Superfluid</span>
             </h1>
           </div>
           <ul className="list-none my-10">
             <li className="text-white text-xl flex items-center mb-5">
               <Arrow />
-              <span className="inline-block ml-5">Lend up to 30% APY</span>
+              <span className="inline-block ml-5">Lend up to 20% APY</span>
             </li>
             <li className="text-white text-xl flex items-center mb-5">
               <Arrow />
@@ -48,7 +46,7 @@ const Hero = () => {
       </div>
       <div className="curv-bg-wrapper">
         <div className="pt-28 pb-16 md:pb-28 relative z-10">
-          <h1 className="text-white text-center text-5xl md:text-7xl mb-4 font-normal md:font-medium">
+          <h1 className="text-white text-center xl:text-7xl lg:text-5xl  text-3xl  mb-4 font-normal md:font-medium">
             How it Works
           </h1>
           <p

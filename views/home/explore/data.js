@@ -86,26 +86,18 @@ export const columns = [
   },
   {
     id: 2,
-    label: "Value",
+    label: "Loan Value",
   },
   {
     id: 3,
-    label: "Maturity",
+    label: "Duration",
   },
   {
     id: 4,
-    label: "Credit Score",
+    label: "Interest Rate",
   },
   {
     id: 5,
-    label: "Salary History",
-  },
-  {
-    id: 6,
-    label: "APR",
-  },
-  {
-    id: 7,
     label: "Status",
   },
 ];
