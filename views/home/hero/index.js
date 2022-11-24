@@ -38,10 +38,10 @@ const Hero = () => {
               <span className="inline-block ml-5">Borrow from 10% APR</span>
             </li>
           </ul>
-          <Button
+          {/* <Button
             title="Launch app"
             onClick={() => openInNewTab("https://app.loanyee.xyz")}
-          />
+          /> */}
         </div>
       </div>
       <div className="curv-bg-wrapper">

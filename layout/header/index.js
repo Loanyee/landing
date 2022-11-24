@@ -9,12 +9,12 @@ const Header = () => {
       <div className="flex items-center">
         <Logo />
       </div>
-      <div>
+      {/* <div>
         <Button
           title="Launch app"
           onClick={() => openInNewTab("https://app.loanyee.xyz")}
         />
-      </div>
+      </div> */}
     </header>
   );
 };
