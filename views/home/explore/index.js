@@ -24,7 +24,7 @@ const Explore = ({ loanData }) => {
             style={{ maxWidth: "1080px", maxHeight: "500px" }}
           >
             <table class="min-w-full">
-              <thead class="border-b">
+              <thead class="border-b sticky	 top-0 bg-white">
                 <tr>
                   {columns.map((col) => {
                     return (
