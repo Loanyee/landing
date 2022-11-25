@@ -42,6 +42,7 @@ const Hero = () => {
             title="Launch app"
             onClick={() => openInNewTab("https://app.loanyee.xyz")}
           /> */}
+          {/* hide the button so far */}
         </div>
       </div>
       <div className="curv-bg-wrapper">
